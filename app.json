@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "habitoos-new",
+    "slug": "habitoos-new",
+    "scheme": "habitoos-new",
+    "version": "1.0.0",
+    "plugins": [
+      "expo-router",
+      "react-native-vision-camera",
+       {
+        "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
+
+        // optionally, if you want to record audio:
+        "enableMicrophonePermission": true,
+        "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
+      }
+    ]
+  }
+}
+
+
